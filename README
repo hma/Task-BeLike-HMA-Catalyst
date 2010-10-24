@@ -1,0 +1,41 @@
+Task::BeLike::HMA::Catalyst
+============================
+
+Task::BeLike::HMA::Catalyst is HMA's personal Task to install a Catalyst
+development environment the way he likes.
+
+See "Makefile.PL" for details.
+
+
+SYNOPSIS / INSTALLATION
+
+    perl Makefile.PL
+    make
+
+    # re-run Makefile.PL to see if all modules got installed
+    perl Makefile.PL
+
+    # make test and install if you want (not required)
+    make test
+    make install
+
+
+DEPENDENCIES
+
+    Task::BeLike::HMA 0.05+
+    See http://github.com/hma/Task-BeLike-HMA
+
+
+COPYRIGHT AND LICENSE
+
+Copyright (c) 2010 Henning Manske. All rights reserved.
+
+This module is free software. You can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/
+
+This module is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
