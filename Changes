@@ -1,5 +1,9 @@
 Revision history for Task-BeLike-HMA-Catalyst
 
+0.02_01 Nov 29, 2010
+
+        - Lower required versions for some dependencies
+
 0.01    Oct 24, 2010
 
         - Initial commit and release to GitHub

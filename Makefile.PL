@@ -71,17 +71,17 @@ requires 'Catalyst::Manual'                       => '5.8004';
 # Catalyst extensions
 
 requires 'Catalyst::Action::RenderView'           => '0.09';
-requires 'Config::Any'                            => '0.20';
-requires 'Catalyst::Plugin::ConfigLoader'         => '0.30';
+requires 'Config::Any'                            => '0.19';
+requires 'Catalyst::Plugin::ConfigLoader'         => '0.27';
 requires 'Catalyst::Plugin::Static::Simple'       => '0.28';
-requires 'JSON::Any'                              => '1.24';
+requires 'JSON::Any'                              => '1.22';
 requires 'Catalyst::View::JSON'                   => '0.30';
 requires 'Catalyst::Model::Adaptor'               => '0.09';
 
 # Catalyst Development Tools
 
 requires 'Linux::Inotify2'                        => '1.2';
-requires 'MooseX::Params::Validate'               => '0.14';
+requires 'MooseX::Params::Validate'               => '0.13';
 requires 'MooseX::SemiAffordanceAccessor'         => '0.06';
 requires 'File::ChangeNotify'                     => '0.19';
 requires 'File::Copy::Recursive'                  => '0.38';
@@ -93,9 +93,9 @@ requires 'Catalyst::Devel'                        => '1.28';
 # Plack and friends
 
 requires 'Plack'                                  => '0.9950';
-requires 'Plack::Middleware::ReverseProxy'        => '0.07';
+requires 'Plack::Middleware::ReverseProxy'        => '0.05';
 requires 'Catalyst::Engine::PSGI'                 => '0.11';
-requires 'Net::Server'                            => '0.99';
+requires 'Net::Server'                            => '0.97';
 requires 'Starman'                                => '0.2007';
 
 build_requires 'Test::More';
