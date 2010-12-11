@@ -1,6 +1,7 @@
 #!perl -T
 #
 #  xt/author/checkchanges.t 0.01 hma Sep 16, 2010
+#  Module::AutoInstall customized version 0.01 hma Dec 11, 2010
 #
 #  Check that the Changes file matches the distribution
 #  RELEASE_TESTING only
@@ -37,7 +38,7 @@ local ($ENV{PATH}) = $ENV{PATH} =~ /^(.*)$/;
 
 # make sure Makefile is up to date
 
-my $out = `$perl Makefile.PL 2>&1`;
+my $out = `$perl Makefile.PL --defaultdeps 2>&1`;
 die "Could not make Makefile: $out" if $?;
 
 # note: 'base' parameter is an undocumented feature of Test::CheckChanges
