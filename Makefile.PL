@@ -19,10 +19,11 @@ use warnings;
 
 use inc::Module::Install 1.00;
 
-my $task = 'Task::BeLike::HMA 0.05';
-my $url  = 'https://github.com/hma/Task-BeLike-HMA';
+my $task   = 'Task::BeLike::HMA 0.05';
+my $url    = 'https://github.com/hma/Task-BeLike-HMA';
+my $author = $^O eq 'VMS' ? './inc/_author' : './inc/.author';
 
-unless (eval "use $task; 1") {
+unless (-d $author || eval "use $task; 1") {
   print "*** $task not installed.\n"
     . "    Please install $task first.\n"
     . "    See: $url\n";
