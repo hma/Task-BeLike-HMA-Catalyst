@@ -20,7 +20,7 @@ use warnings;
 use inc::Module::Install 1.00;
 
 my $task = 'Task::BeLike::HMA 0.05';
-my $url  = 'http://github.com/hma/Task-BeLike-HMA';
+my $url  = 'https://github.com/hma/Task-BeLike-HMA';
 
 unless (eval "use $task; 1") {
   print "*** $task not installed.\n"
@@ -48,8 +48,8 @@ name       $dist;
 license    'perl';
 all_from   "lib/$path.pm";
 
-bugtracker "http://github.com/hma/$dist/issues";
-repository "http://github.com/hma/$dist";
+bugtracker "https://github.com/hma/$dist/issues";
+repository "https://github.com/hma/$dist";
 
 # Moose and friends
 

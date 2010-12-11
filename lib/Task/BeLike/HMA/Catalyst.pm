@@ -19,7 +19,7 @@ Task::BeLike::HMA::Catalyst - HMA's Catalyst SDK
 
 =head1 VERSION
 
-This is version 0.02_01 of Task::BeLike::HMA::Catalyst as of Nov 29, 2010.
+This is version 0.02_01 of Task::BeLike::HMA::Catalyst as of Dec 11, 2010.
 
 =head1 SYNOPSIS
 
@@ -44,7 +44,7 @@ See C<Makefile.PL> for details.
 
 =over 4
 
-=item * L<Task::BeLike::HMA 0.05+|http://github.com/hma/Task-BeLike-HMA>
+=item * L<Task::BeLike::HMA 0.05+|https://github.com/hma/Task-BeLike-HMA>
 
 =back
 
