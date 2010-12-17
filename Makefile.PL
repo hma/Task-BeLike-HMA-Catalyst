@@ -52,6 +52,8 @@ all_from   "lib/$path.pm";
 bugtracker "https://github.com/hma/$dist/issues";
 repository "https://github.com/hma/$dist";
 
+requires 'Task::BeLike::HMA'                      => '0.05';
+
 # Moose and friends
 
 requires 'Moose'                                  => '1.17';
