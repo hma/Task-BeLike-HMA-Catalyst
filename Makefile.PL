@@ -1,7 +1,7 @@
 #
 #  Task::BeLike::HMA::Catalyst - Makefile.PL
 #
-#  Copyright (c) 2010 Henning Manske. All rights reserved.
+#  Copyright (c) 2010-2011 Henning Manske. All rights reserved.
 #
 #  This program is free software. You can redistribute it and/or modify it
 #  under the terms of either: the GNU General Public License as published
@@ -68,8 +68,8 @@ requires 'MooseX::Role::WithOverloading'          => '0.08';
 
 # The Catalyst Framework Runtime
 
-requires 'Catalyst::Runtime'                      => '5.80029';
-requires 'Catalyst::Manual'                       => '5.8004';
+requires 'Catalyst::Runtime'                      => '5.80030';
+requires 'Catalyst::Manual'                       => '5.8005';
 
 # Catalyst extensions
 
@@ -97,7 +97,7 @@ requires 'Catalyst::Devel'                        => '1.28';
 
 requires 'Plack'                                  => '0.9950';
 requires 'Plack::Middleware::ReverseProxy'        => '0.05';
-requires 'Catalyst::Engine::PSGI'                 => '0.11';
+requires 'Catalyst::Engine::PSGI'                 => '0.12';
 requires 'Net::Server'                            => '0.97';
 requires 'Starman'                                => '0.2007';
 

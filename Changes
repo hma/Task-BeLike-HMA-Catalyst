@@ -1,5 +1,12 @@
 Revision history for Task-BeLike-HMA-Catalyst
 
+0.02_02 Jan 07, 2011
+
+        - Bump to recent versions
+            * Catalyst::Runtime
+            * Catalyst::Manual
+            * Catalyst::Engine::PSGI
+
 0.02_01 Dec 17, 2010
 
         - Lower required versions for some dependencies

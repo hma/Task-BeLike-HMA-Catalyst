@@ -5,11 +5,9 @@ use warnings;
 
 use 5.008004;
 
-our $VERSION = '0.02_01';
+our $VERSION = '0.02_02';
 
 $VERSION = eval $VERSION;
-
-1;
 
 __END__
 
@@ -19,7 +17,7 @@ Task::BeLike::HMA::Catalyst - HMA's Catalyst SDK
 
 =head1 VERSION
 
-This is version 0.02_01 of Task::BeLike::HMA::Catalyst as of Dec 11, 2010.
+This is version 0.02_02 of Task::BeLike::HMA::Catalyst as of Jan 07, 2011.
 
 =head1 SYNOPSIS
 
@@ -68,7 +66,7 @@ Henning Manske <hma@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2010 Henning Manske. All rights reserved.
+Copyright (c) 2010-2011 Henning Manske. All rights reserved.
 
 This module is free software. You can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
