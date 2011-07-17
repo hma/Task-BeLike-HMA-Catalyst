@@ -1,17 +1,11 @@
 Revision history for Task-BeLike-HMA-Catalyst
 
-0.02_02 Jan 07, 2011
+0.03    Jul 17, 2011
 
-        - Bump to recent versions
-            * Catalyst::Runtime
-            * Catalyst::Manual
-            * Catalyst::Engine::PSGI
-
-0.02_01 Dec 17, 2010
-
-        - Lower required versions for some dependencies
-        - Switch GitHub URLs to https
+        - Adjust required versions for many dependencies
+        - Add YAML::Tiny for Catalyst::Devel 1.29+
         - Add Task::BeLike::HMA to metadata
+        - Switch GitHub URLs to https
 
 0.01    Oct 24, 2010
 
