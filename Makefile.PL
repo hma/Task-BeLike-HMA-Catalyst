@@ -19,7 +19,7 @@ use 5.008004;
 use strict;
 use warnings;
 
-use inc::Module::Install 1.00;
+use inc::Module::Install 1.01;
 
 my $task   = 'Task::BeLike::HMA 0.05';
 my $url    = 'https://github.com/hma/Task-BeLike-HMA';
