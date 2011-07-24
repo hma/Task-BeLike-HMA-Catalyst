@@ -1,5 +1,9 @@
 Revision history for Task-BeLike-HMA-Catalyst
 
+0.03_01 Jul 24, 2011
+
+        - Convert README to Markdown
+
 0.03    Jul 17, 2011
 
         - Adjust required versions for many dependencies

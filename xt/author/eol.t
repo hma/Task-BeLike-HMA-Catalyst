@@ -1,7 +1,7 @@
 #!perl -T
 #
 #  xt/author/eol.t 0.01 hma Sep 16, 2010
-#  Task-BeLike-HMA* customized version 0.01 hma Sep 17, 2010
+#  Task-BeLike-HMA* customized version 0.02 hma Jul 24, 2011
 #
 #  Check the correct line endings in your project
 #  RELEASE_TESTING only
@@ -44,7 +44,7 @@ for my $filename (qw(
   Changes
   Makefile.PL
   MANIFEST.SKIP
-  README
+  README.md
 )) {
   eol_unix_ok($filename, $options);
 }

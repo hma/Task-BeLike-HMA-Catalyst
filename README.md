@@ -1,13 +1,15 @@
 Task::BeLike::HMA::Catalyst
 ============================
 
-Task::BeLike::HMA::Catalyst is HMA's personal Task to install a Catalyst
-development environment the way he likes.
+Task::BeLike::HMA::Catalyst is HMA's personal [Task] [1] to install
+a Catalyst development environment the way he likes.
 
 See "Makefile.PL" for details.
 
+  [1]: http://search.cpan.org/perldoc?Task
 
-SYNOPSIS / INSTALLATION
+
+# SYNOPSIS / INSTALLATION
 
     perl Makefile.PL
     make
@@ -20,13 +22,14 @@ SYNOPSIS / INSTALLATION
     make install
 
 
-DEPENDENCIES
+# DEPENDENCIES
 
-    Task::BeLike::HMA 0.05+
-    See https://github.com/hma/Task-BeLike-HMA
+* [Task::BeLike::HMA] [2] 0.05+
+
+  [2]: https://github.com/hma/Task-BeLike-HMA
 
 
-COPYRIGHT AND LICENSE
+# COPYRIGHT AND LICENSE
 
 Copyright (c) 2010-2011 Henning Manske. All rights reserved.
 

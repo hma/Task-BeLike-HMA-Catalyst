@@ -5,7 +5,7 @@ use 5.008004;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '0.03_01';
 
 $VERSION = eval $VERSION;
 
@@ -17,7 +17,7 @@ Task::BeLike::HMA::Catalyst - HMA's Catalyst SDK
 
 =head1 VERSION
 
-This is version 0.03 of Task::BeLike::HMA::Catalyst as of Jul 17, 2011.
+This is version 0.03_01 of Task::BeLike::HMA::Catalyst as of Jul 24, 2011.
 
 =head1 SYNOPSIS
 
